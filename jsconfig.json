@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["src/*"], // when I press `cmd + s` to fix it, the comma won't disappear, and the error will still exist
     },
   },
   "include": ["src/**/*"],

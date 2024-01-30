@@ -1,3 +1,7 @@
-import { all } from "@sxzz/eslint-config";
+import { sxzz } from "@sxzz/eslint-config";
 
-export default all;
+export default sxzz([], {
+  vue: true,
+  prettier: true,
+  markdown: true,
+});
